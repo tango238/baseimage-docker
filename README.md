@@ -1,12 +1,23 @@
-# A minimal Ubuntu base image modified for Docker-friendliness
+<!-- # A minimal Ubuntu base image modified for Docker-friendliness -->
+# Dockerフレンドリーな Ubuntu の最小構成の base image
 
 [![](https://badge.imagelayers.io/phusion/baseimage:0.9.17.svg)](https://imagelayers.io/?images=phusion/baseimage:latest 'Get your own badge on imagelayers.io')
 
+<!-- 
 Baseimage-docker is a special [Docker](https://www.docker.com) image that is configured for correct use within Docker containers. It is Ubuntu, plus:
+-->
+Baseimage-docker は Docker コンテナを適切な使い方で設定された特別な [Docker](https://www.docker.com) イメージです。Ubuntu に加え、
 
+<!-- 
  * Modifications for Docker-friendliness.
  * Administration tools that are especially useful in the context of Docker.
  * Mechanisms for easily running multiple processes, [without violating the Docker philosophy](#docker_single_process).
+-->
+ * Docker 用に修正
+ * Docker のコンテキスト内でとりわけ便利な管理ツール
+ * マルチプロセスでも簡単に動作する機構（[Docker の哲学に反しない限り](#docker_single_process)）
+
+
 
 You can use it as a base for your own Docker images.
 
